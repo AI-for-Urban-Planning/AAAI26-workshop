@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Accepted Papers - The 2nd Workshop on AI for Urban Planning">
+    <title>Accepted Papers | AI for Urban Planning - AAAI 2026</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <style>
+      .papers-banner {
+        position: relative;
+        height: 45vh;
+        min-height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .papers-banner img {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        filter: brightness(0.55);
+      }
+      .papers-banner h1 {
+        position: relative;
+        color: #fff;
+        font-size: clamp(2rem, 5vw, 3.2rem);
+        font-weight: 700;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+      }
+      .paper-item {
+        padding: 18px 20px;
+        margin-bottom: 12px;
+        background: #fff;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        transition: box-shadow 0.2s;
+      }
+      .paper-item:hover {
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      }
+      .paper-number {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        background: #d4a939;
+        color: #fff;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 12px;
+        flex-shrink: 0;
+      }
+      .paper-title {
+        font-weight: 600;
+        font-size: 16px;
+        color: #212529;
+      }
+      .paper-authors {
+        color: #555;
+        font-size: 14px;
+        margin-top: 4px;
+      }
+      .paper-affiliation {
+        color: #888;
+        font-size: 13px;
+        margin-top: 2px;
+      }
+      .paper-links {
+        display: inline-flex;
+        gap: 8px;
+        margin-left: 8px;
+      }
+      .paper-links a {
+        display: inline-block;
+        padding: 2px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: opacity 0.2s;
+      }
+      .paper-links a:hover { opacity: 0.8; }
+      .link-paper  { background-color: #dc3545; color: #fff; }
+      .link-slides { background-color: #007bff; color: #fff; }
+      .link-poster { background-color: #28a745; color: #fff; }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #007bff;
+        text-decoration: none;
+        font-size: 15px;
+        margin-bottom: 25px;
+      }
+      .back-link:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="papers.html">Accepted Papers</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#agenda">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#keynote">Keynote Speakers</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#topics">Topics of Interest</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#submission">Submission Site</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#date">Important Dates</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#organizer">Organizing Committee</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#student_volunteer">Volunteers</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="papers-banner">
+  <img src="img/singapore.jpg" alt="Singapore Skyline">
+  <h1>Accepted Papers</h1>
+</div>
+
+<main class="container" style="max-width: 960px; padding-top: 40px; padding-bottom: 60px;">
+
+  <a href="index.html" class="back-link">&larr; Back to Workshop Home</a>
+
+  <!-- Paper 1 -->
+  <div class="paper-item">
+    <div style="display: flex; align-items: flex-start;">
+      <span class="paper-number">1</span>
+      <div>
+        <div class="paper-title">
+          UrbanControlNet: Reimaging Global Urban Development with Satellite Imagery
+          <span class="paper-links">
+            <a href="#" class="link-paper" target="_blank">Paper</a>
+            <a href="#" class="link-poster" target="_blank">Poster</a>
+          </span>
+        </div>
+        <div class="paper-authors">Kailai Sun, Yuebing Liang, Mingyi He, Yunhan Zheng, Shenhao Wang, Jinhua Zhao, Alex Pentland</div>
+        <div class="paper-affiliation">Massachusetts Institute of Technology, Tsinghua University, Singapore-MIT Alliance for Research and Technology &amp; University of Florida</div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- ====== 添加论文模板：复制下面的块，修改编号、标题、作者、单位和链接 ======
+
+  <div class="paper-item">
+    <div style="display: flex; align-items: flex-start;">
+      <span class="paper-number">11</span>
+      <div>
+        <div class="paper-title">
+          论文标题
+          <span class="paper-links">
+            <a href="PDF链接" class="link-paper" target="_blank">Paper</a>
+            <a href="PPT链接" class="link-slides" target="_blank">Slides</a>
+            <a href="海报链接" class="link-poster" target="_blank">Poster</a>
+          </span>
+        </div>
+        <div class="paper-authors">作者1, 作者2</div>
+        <div class="paper-affiliation">单位A &amp; 单位B</div>
+      </div>
+    </div>
+  </div>
+
+  ====== END TEMPLATE ====== -->
+
+</main>
+
+<!-- <footer class="container mt-5 py-4" style="background-color:#f8f9fa; border-top: 1px solid #dee2e6;">
+  <div class="row">
+    <div class="col-md-6">
+      <p class="mb-0">If you have any questions, feel free to send an email to <a href="mailto:pywang@um.edu.mo">pywang@um.edu.mo</a></p>
+    </div>
+    <div class="col-md-6 text-end">
+      <a href="#" class="btn btn-primary btn-sm">Back to top</a>
+    </div>
+  </div>
+</footer> -->
+
+<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
